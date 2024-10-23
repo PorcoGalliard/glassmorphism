@@ -39,7 +39,7 @@ const Wrapper = styled.div`
     transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
-  :hover {
+  &:hover {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.2);
   }
