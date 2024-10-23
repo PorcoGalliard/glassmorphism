@@ -2,16 +2,14 @@ import styled from "styled-components";
 
 export default function TextSection() {
   return (
-    <>
-      <Wrapper>
-        <Subtitle>120 HOURS OF COURSES</Subtitle>
-        <Title>Learn the best tools and platforms</Title>
-        <Description>
-          We focus on industry leading platforms so that you can be prepared for
-          your next job. Then we teach all we can about them.
-        </Description>
-      </Wrapper>
-    </>
+    <Wrapper>
+      <Subtitle>120 HOURS OF COURSES</Subtitle>
+      <Title>Learn the best tools and platforms</Title>
+      <Description>
+        We focus on industry leading platforms so that you can be prepared for
+        your next job. Then we teach all we can about them.
+      </Description>
+    </Wrapper>
   );
 }
 

@@ -1,19 +1,15 @@
 import styled from "styled-components";
 import Illustration from "../Images/illustration.svg";
-import Aqua from "../Images/aqua.png";
 import Logo from "../Images/logo.png";
 
 export default function Cover() {
   return (
-    <>
-      <Wrapper>
-        <Image src={Illustration} alt="illustration" />
-        <Title>Advanced React Hook</Title>
-        <Subtitle>20 videos - 3 hours</Subtitle>
-        <Circle className="logo" src={Logo} alt="logo" />
-        <Circle className="avatar" src={Aqua} alt="aqua avatar" />
-      </Wrapper>
-    </>
+    <Wrapper>
+      <Image src={Illustration} alt="illustration" />
+      <Title>Advanced React Hook</Title>
+      <Subtitle>20 videos - 3 hours</Subtitle>
+      <Circle className="logo" src={Logo} alt="logo" />
+    </Wrapper>
   );
 }
 

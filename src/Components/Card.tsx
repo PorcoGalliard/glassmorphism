@@ -4,28 +4,26 @@ import Row from "./Row";
 
 export default function Card() {
   return (
-    <>
-      <Wrapper>
-        <Cover />
-        <RowWrapper>
-          <Row
-            number={1}
-            title="Intro to Advanced React Hooks"
-            subtitle="Learn how to build a website with Typescript, Hooks, Contentful and Gatsby Cloud"
-          />
-          <Row
-            number={2}
-            title="Adaptive Layout and Styled Components"
-            subtitle="Make your design responsive for different devices with styled components and media query"
-          />
-          <Row
-            number={3}
-            title="Basic Hooks"
-            subtitle="Use hook to trigger an animation"
-          />
-        </RowWrapper>
-      </Wrapper>
-    </>
+    <Wrapper>
+      <Cover />
+      <RowWrapper>
+        <Row
+          number={1}
+          title="Intro to Advanced React Hooks"
+          subtitle="Learn how to build a website with Typescript, Hooks, Contentful and Gatsby Cloud"
+        />
+        <Row
+          number={2}
+          title="Adaptive Layout and Styled Components"
+          subtitle="Make your design responsive for different devices with styled components and media query"
+        />
+        <Row
+          number={3}
+          title="Basic Hooks"
+          subtitle="Use hook to trigger an animation"
+        />
+      </RowWrapper>
+    </Wrapper>
   );
 }
 
